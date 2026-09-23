@@ -2,7 +2,7 @@
 
 This repository contains my write-ups from CTFs and security challenges.
 
-My goal is to document how I approach security problems, which tools I use, and what I learn while solving them.
+The goal is to document my investigation process, tools used, technical findings, and lessons learned while practicing cybersecurity.
 
 ## Platforms
 
@@ -12,4 +12,6 @@ My goal is to document how I approach security problems, which tools I use, and 
 
 ### TryHackMe
 
-- [Shadow Trace](./tryhackme/shadow-trace/README.md) — Static malware analysis, IOC identification, and alert investigation.
+| Challenge | Focus |
+| --- | --- |
+| [Shadow Trace](./tryhackme/shadow-trace/README.md) | Malware analysis, IOC identification, alert investigation, and decoding |
