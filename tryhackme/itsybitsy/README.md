@@ -20,7 +20,7 @@ While reviewing the `source_ip` field, I noticed that most of the connection log
 
 The unusual distribution caught my attention, so I decided to investigate the less common source IP: `192.166.65.54`.
 
-![Initial source IP analysis](./images/source-ip-analysis.png)
+![Initial source IP analysis](./images/suspicious-ip-activity.png)
 
 ## Suspicious IP Investigation
 
@@ -38,7 +38,7 @@ The search returned activity associated with:
 - User agent: `bitsadmin`
 - URI: `/yTg0Ah6a`
 
-![Suspicious IP activity](./images/suspicious-ip-activity.png)
+![Suspicious IP activity](./images/source-ip-analysis.png)
 
 I also filtered out the IP address responsible for most of the normal activity, which made the unusual events easier to identify.
 
