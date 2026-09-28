@@ -52,7 +52,7 @@ Event ID `13` showed a registry value modification associated with the account.
 The affected registry path was located under:
 
 ```text
-HKLM\SAM\SAM\Domains\Account\Users\Names\Alberto
+HKLM\SAM\SAM\Domains\Account\Users\Names\A1berto
 ```
 
 ![Backdoor user registry modification](images/backdoor-user-registry.png)
