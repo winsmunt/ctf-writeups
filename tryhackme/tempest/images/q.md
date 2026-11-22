@@ -1,1 +1,6 @@
-As a SOC Level 1 analyst, you should always verify whether a suspicious network connection actually succeeded by checking firewall or proxy status codes, rather than relying solely on DNS queries. When investigating potential phishing emails, inspect the Return-Path and Authentication-Results (SPF, DKIM, and DMARC) headers first to quickly spot spoofed senders before opening any links or attachments in a sandbox. Finally, always check if the same file hash, IP address, or domain has appeared on other endpoints across your network so you can report the full scope of exposure when escalating an incident.
+Per the documentation, NETLOGON_CREDENTIAL can take 8 bytes of data,
+the second bullet point outlines that "the data field carries 8 bytes
+of encrypted data, as specified in the Netlogon Credential Computation",
+fortunately we know this value, thanks to Zero Logon, it's 8 bytes of Zero. 
+In terms of the Timestamp, it's a DWORD value, so it can either be a one or 
+a zero. Zero sounds perfectly find to me.
