@@ -1,6 +1,4 @@
-Per the documentation, NETLOGON_CREDENTIAL can take 8 bytes of data,
-the second bullet point outlines that "the data field carries 8 bytes
-of encrypted data, as specified in the Netlogon Credential Computation",
-fortunately we know this value, thanks to Zero Logon, it's 8 bytes of Zero. 
-In terms of the Timestamp, it's a DWORD value, so it can either be a one or 
-a zero. Zero sounds perfectly find to me.
+If we are still looking to get information about what the host is running from the memory dump, we can use the following three plugins windows.info linux.info mac.info. This plugin will provide information about the host from the memory dump.
+
+Syntax: python3 vol.py -f <file> windows.info
+
